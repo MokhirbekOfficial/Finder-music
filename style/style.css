@@ -1,0 +1,100 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+body{
+	background-color: lightblue;
+}
+ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	width: 1250px;
+	margin: 0px auto;
+	
+}
+h1{
+	text-align: center;
+	color: #EB4C42;
+}
+a{
+	text-decoration: none;
+}
+.song-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.song-item{
+	border: 2px solid red;
+	width: 400px;
+	height: 450px;
+	margin: 8px 8px;
+}
+.bunyod{
+	background-image: url(../img/bunyod-jumaniyozov.jpg);
+	background-position: center;
+	background-size: 400px 450px;
+}
+.ego{
+	background-image: url(../img/ego-moya-xuliganka-imanbek-remix-2019.jpg);
+	background-position: center;
+	background-size: 400px 450px;
+}
+.enrique{
+	background-image: url(../img/NUWu9HTYuYkO_enrike-iglesias.jpg);
+	background-position: center;
+	background-size: 400px 450px;
+}
+.name-of-artist{
+	display: inline-flex;
+	justify-content: center;
+	color: blue;
+	margin-bottom: 0px;
+	margin-top: 305px;
+	margin-left: 20px;
+	background-color: #ADD8E6;
+	align-items: center;
+	padding: 5px;
+	border-radius: 5px;
+}
+.songer-link:hover .name-of-artist{
+	background-color: blue;
+	color: white;
+	transition: all 0.3s ease;
+}
+.songer-link:active{
+	opacity: 0.5;
+}
+.link-of-song{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: red;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: yellow;
+	padding: 5px;
+	border-radius: 5px;
+}
+.link-of-song:hover{
+	background-color: red;
+	color: yellow;
+	transition: all 0.3s ease;
+}
+.link-of-song:active{
+	opacity: 0.5;
+}
+.audios{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+}
